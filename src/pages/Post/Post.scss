@@ -1,0 +1,20 @@
+.post-wrapper {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+
+  .post-info {
+    display: flex;
+
+    .post-comments {
+      display: flex;
+      flex-direction: column;
+      max-height: 450px;
+
+      .comments {
+        flex: 1 1 auto;
+        overflow: scroll;
+      }
+    }
+  }
+}
